@@ -76,10 +76,10 @@ void main(int argc, char** argv)
     }
 
     // the MNIST training and test data & labels sets
-    string trnLabelFile = "c:/OpenCV.3.1/EBDVI_dpetre/images/mnist/train-labels.idx1-ubyte";
-    string trnImageFile = "c:/OpenCV.3.1/EBDVI_dpetre/images/mnist/train-images.idx3-ubyte";
-    string tstLabelFile = "c:/OpenCV.3.1/EBDVI_dpetre/images/mnist/t10k-labels.idx1-ubyte";
-    string tstImageFile = "c:/OpenCV.3.1/EBDVI_dpetre/images/mnist/t10k-images.idx3-ubyte";
+    string trnLabelFile = "c:/OpenCV.3.1/Solution/images/mnist/train-labels.idx1-ubyte";
+    string trnImageFile = "c:/OpenCV.3.1/Solution/images/mnist/train-images.idx3-ubyte";
+    string tstLabelFile = "c:/OpenCV.3.1/Solution/images/mnist/t10k-labels.idx1-ubyte";
+    string tstImageFile = "c:/OpenCV.3.1/Solution/images/mnist/t10k-images.idx3-ubyte";
 
     // read the training images and labels
     idx1 mnistTrnLabels(trnLabelFile);
