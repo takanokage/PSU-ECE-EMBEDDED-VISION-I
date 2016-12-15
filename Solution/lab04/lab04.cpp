@@ -19,7 +19,7 @@ using namespace common;
 const string WIN_NAME = "Lab 04: Key point detection and matching.";
 
 // Output path when saving images to disk.
-const string LAB_04_OUTPUT = "C:\\OpenCV\\EBDVI_dpetre\\images\\Lab04\\experiments\\";
+const string LAB_04_OUTPUT = "C:\\OpenCV.3.1\\Solution\\images\\Lab04\\experiments\\";
 
 // Scale factors used to fit images to the screen.
 const double SCALE_FACTOR = 0.75;

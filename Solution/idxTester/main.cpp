@@ -9,10 +9,10 @@ using namespace std;
 
 void main()
 {
-    idx1 labels("c:/OpenCV/EBDVI_dpetre/images/mnist/t10k-labels.idx1-ubyte");
-    idx3 images("c:/OpenCV/EBDVI_dpetre/images/mnist/t10k-images.idx3-ubyte");
-    //idx1 labels("c:/OpenCV/EBDVI_dpetre/images/mnist/train-labels.idx1-ubyte");
-    //idx3 images("c:/OpenCV/EBDVI_dpetre/images/mnist/train-images.idx3-ubyte");
+    idx1 labels("c:/OpenCV.3.1/Solution/images/mnist/t10k-labels.idx1-ubyte");
+    idx3 images("c:/OpenCV.3.1/Solution/images/mnist/t10k-images.idx3-ubyte");
+    //idx1 labels("c:/OpenCV.3.1/Solution/images/mnist/train-labels.idx1-ubyte");
+    //idx3 images("c:/OpenCV.3.1/Solution/images/mnist/train-images.idx3-ubyte");
 
     int nrLabels = labels.Count();
     int nrImages = images.Count();

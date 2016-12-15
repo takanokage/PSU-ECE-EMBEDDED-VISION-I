@@ -13,7 +13,7 @@ using namespace std;
 using namespace cv;
 using namespace common;
 
-const string LAB_03_PATH = "C:\\OpenCV\\EBDVI_dpetre\\images\\lab03\\";
+const string LAB_03_PATH = "C:\\OpenCV.3.1\\Solution\\images\\lab03\\";
 const string TASK_01_PATH = LAB_03_PATH + "task01\\";
 const string TASK_02_PATH = LAB_03_PATH + "task02\\";
 const string TASK_03_PATH = LAB_03_PATH + "task03\\";
@@ -59,9 +59,9 @@ void main(int argc, char** argv)
     if (captureFaces)
         lab03::CaptureFaces(groupFile);
 
-    //lab03::Task01(groupFile, templateFile);
-    //lab03::Task01b(groupFile, templateFile);
-    //lab03::Task02(groupFile, templateFile);
+    lab03::Task01(groupFile, templateFile);
+    lab03::Task01b(groupFile, templateFile);
+    lab03::Task02(groupFile, templateFile);
     lab03::Task03(groupFile);
 }
 
